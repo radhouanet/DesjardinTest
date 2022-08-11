@@ -16,8 +16,4 @@ public class Acteur {
     private long id;
     private String prenom;
     private String nom;
-
-
-
-
 }

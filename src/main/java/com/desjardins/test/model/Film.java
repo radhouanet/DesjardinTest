@@ -17,5 +17,4 @@ public class Film {
 
     @OneToMany(cascade = CascadeType.ALL)
     private List<Acteur> acteurs;
-
 }
