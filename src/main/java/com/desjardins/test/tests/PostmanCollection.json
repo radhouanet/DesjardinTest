@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "cb12ad65-798e-49b8-952d-716c93c164e2",
+		"name": "DesjardinsCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6921107"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"titre\":\"Titanic\",\r\n   \"description\":\"The movie is about the 1912 sinking of the RMS Titanic.\",\r\n   \"acteurs\":[\r\n      {\r\n         \"nom\":\"DiCaprio\",\r\n         \"prenom\":\"Leonardo\"\r\n      },\r\n      {\r\n         \"nom\":\"Winslet\",\r\n         \"prenom\":\"Kate\"\r\n      }\r\n   ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/film",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"film"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"titre\":\"Star Wars: The Empire Strikes Back\",\r\n   \"description\":\"Darth Vader is adamant about turning Luke Skywalker to the dark side.\",\r\n   \"acteurs\":[\r\n      {\r\n         \"nom\":\"Ford\",\r\n         \"prenom\":\"Harrison\"\r\n      },\r\n      {\r\n         \"nom\":\"Hamill\",\r\n         \"prenom\":\"Mark\"\r\n      }\r\n   ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/film",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"film"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"titre\":\"Batman: the Dark Knight\",\r\n   \"description\":\"When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.\",\r\n   \"acteurs\":[\r\n      {\r\n         \"nom\":\"Bale\",\r\n         \"prenom\":\"Christian\"\r\n      },\r\n      {\r\n         \"nom\":\"Ledger\",\r\n         \"prenom\":\"Heath\"\r\n      }\r\n   ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/film",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"film"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"titre\":\"The Godfather\",\r\n   \"description\":\"The Godfather is set in the 1940s and takes place entirely within the world of the Corleones, a fictional New York Mafia family\",\r\n   \"acteurs\":[\r\n      {\r\n         \"nom\":\"Pacino\",\r\n         \"prenom\":\"Alfredo\"\r\n      },\r\n      {\r\n         \"nom\":\"brando\",\r\n         \"prenom\":\"Marlon\"\r\n      }\r\n   ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/film",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"film"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/film/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"film",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/film/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"film",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/film/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"film",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/film/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"film",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
